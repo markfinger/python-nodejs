@@ -1,8 +1,8 @@
 import subprocess
 import tempfile
+from optional_django import six
 from .exceptions import ErrorInterrogatingEnvironment, MalformedVersionInput, MissingDependency, OutdatedDependency
 from .conf import settings
-from .utils import six
 
 
 def run_command(cmd_to_run):

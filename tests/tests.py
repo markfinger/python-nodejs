@@ -4,7 +4,7 @@ from nodejs.bindings import (
     node_installed, node_version, node_version_raw, node_run, ensure_node_installed, ensure_node_version_gte,
 )
 from nodejs.exceptions import MalformedVersionInput, OutdatedDependency
-from nodejs.utils import six
+from optional_django import six
 
 
 class TestNode(unittest.TestCase):
