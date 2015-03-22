@@ -14,7 +14,9 @@ stderr, stdout = node_run('/path/to/some/file.js', '--some-argument')
 Installation
 ------------
 
-`pip install nodejs`
+```
+pip install nodejs
+```
 
 
 Bindings
