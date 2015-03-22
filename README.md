@@ -8,7 +8,7 @@ Python bindings and utils for [Node.js](http://nodejs.org) and [io.js](https://i
 ```python
 from nodejs.bindings import node_run
 
-stderr, stdout = node_run.run('/path/to/some/file.js', '--some-argument')
+stderr, stdout = node_run('/path/to/some/file.js', '--some-argument')
 ```
 
 Installation
@@ -27,7 +27,7 @@ Invokes Node with the arguments provided and return the resulting stderr and std
 ```python
 from nodejs.bindings import node_run
 
-stderr, stdout = node_run.run('/path/to/some/file.js', '--some-argument')
+stderr, stdout = node_run('/path/to/some/file.js', '--some-argument')
 ```
 
 ### nodejs.bindings.ensure_installed()
