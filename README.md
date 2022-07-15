@@ -1,3 +1,8 @@
+## PyPI Warning
+**Note that the `nodejs` package on PyPI has been passed on to another user that is actively bundling node binaries. See https://github.com/samwillis/nodejs-pypi for more information.**
+
+**If you want to use the legacy version of this package, you can install it with `pip install nodejs==0.1.1` or pin it to `nodejs==0.1.1` in your requirements.txt.**
+
 python-nodejs
 =============
 
@@ -15,7 +20,7 @@ Installation
 ------------
 
 ```
-pip install nodejs
+pip install nodejs==0.1.1
 ```
 
 
